@@ -3,7 +3,7 @@ import FrameworkSelect from "../components/frameworkSelect";
 import { useState, useEffect } from "react";
 import NpmPackages from "../components/npmPackages";
 
-const index = () => {
+const Index = () => {
   const [theFramework, setTheFramework] = useState("");
   return (
     <>
@@ -19,4 +19,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
